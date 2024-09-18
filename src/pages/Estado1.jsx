@@ -3,8 +3,6 @@ import { Pagina } from "../components/Pagina";
 
 export default function Estado1(){
 
-    let numero = 10
-
     const [num, setNum]=useState(0)
     // const estado =  useState(500)
     // const num = estado[0]
