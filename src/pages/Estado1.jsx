@@ -8,6 +8,8 @@ export default function Estado1(){
     // const num = estado[0]
     // const setNum = estado[1]
 
+    const [texto, setTexto] = useState("olá, seja bem-vindo")
+
 
     function incrementar(){
 
@@ -19,6 +21,11 @@ export default function Estado1(){
             <div>
                 <div>{num}</div>
                 <button className="bg-zinc-600 p-4 rounded-md" onClick={incrementar}>Incrementar</button>
+            </div>
+            <div>
+                <input className="bg-zinc-400" type="text" value={texto}/>
+                <button className="bg-zinc-600 p-4 rounded-md" onClick={() => setTexto("")}>ok</button>
+                <span>{texto}</span>
             </div>
             
         </Pagina>
