@@ -1,10 +1,10 @@
+import { Pagina } from "../../components/Pagina";
 
 export function Sobre(){
 
     return (
-        <div className="flex w-full">
-            
-            <h1>Sobre</h1>
-        </div>
+        <Pagina titulo="Sobre" subtitulo="">
+
+        </Pagina>
     )
 }
