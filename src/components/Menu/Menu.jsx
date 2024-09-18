@@ -42,6 +42,11 @@ export function Menu(){
                     <IconInfoCircle/>
                     Sobre
                 </NavLink>
+
+                <NavLink to="/estado1" className={getEstilo}>
+                    <IconInfoCircle/>
+                    Estado 1
+                </NavLink>
             </nav>
 
             <footer className="absolute bottom-0 p-3 text-sm">
