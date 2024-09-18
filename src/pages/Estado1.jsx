@@ -23,7 +23,7 @@ export default function Estado1(){
                 <button className="bg-zinc-600 p-4 rounded-md" onClick={incrementar}>Incrementar</button>
             </div>
             <div>
-                <input className="bg-zinc-400" type="text" value={texto}/>
+                <input className="bg-zinc-400" type="text" value={texto} onChange={(e) => setTexto(e.target.value)}/>
                 <button className="bg-zinc-600 p-4 rounded-md" onClick={() => setTexto("")}>ok</button>
                 <span>{texto}</span>
             </div>
